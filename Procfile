@@ -1,0 +1,1 @@
+web: guniform config.wsgi --log-file -

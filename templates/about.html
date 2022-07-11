@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}About Me{% endblock title %}
 
@@ -6,4 +7,5 @@
 <h1>Christopher Finster</h1>
 <p>Age: 34</p>
 <p>Hobbies: Escaping from Tarkov</p>
+<img class="me-image" src="{% static 'img/me.jpg' %}" alt="image of me">
 {% endblock content %}
